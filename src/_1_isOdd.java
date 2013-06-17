@@ -5,9 +5,9 @@
  * Time: 下午9:36
  * To change this template use File | Settings | File Templates.
  */
-public class _1_ {
+public class _1_isOdd {
 
-    public static void main(String... args){
+    public static void main(String... args) {
         System.out.println();
     }
 }
