@@ -7,7 +7,7 @@ import java.math.BigDecimal;
  * Time: 下午2:18
  * To change this template use File | Settings | File Templates.
  */
-public class _2_decimal {
+public class _2_Decimal {
 
     public static void main(String args[]){
 

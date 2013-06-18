@@ -5,7 +5,7 @@
  * Time: 下午9:36
  * To change this template use File | Settings | File Templates.
  */
-public class _1_isOdd {
+public class _1_IsOdd {
 
     /**
      * 四分之一的时间里返回的都是错误的答案
