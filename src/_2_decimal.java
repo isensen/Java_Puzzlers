@@ -31,7 +31,7 @@ public class _2_decimal {
         System.out.println((200 - 110) + "cents");
 
         //解决该问题的另一种方式是使用执行精确小数运算的BigDecimal。
-        //它还可以通过JDBC与SQL DECIMAL类型进行互操作。
+        //它还可以通过JDBC与SQL DECIMAL类型进 行互操作。
         //注意：
         //一定要用BigDecimal(String)构造器，而千万不要用BigDecimal(double)。
         //后一个构造器将用它的参数的“精确”值来创建一个实例：
