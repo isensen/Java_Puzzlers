@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 import java.math.BigDecimal;
 
@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  * Time: 下午2:18
  * To change this template use File | Settings | File Templates.
  */
-public class _2_decimal {
+public class _02_decimal {
 
     public static void main(String args[]){
 

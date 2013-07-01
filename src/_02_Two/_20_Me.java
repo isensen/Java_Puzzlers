@@ -1,4 +1,4 @@
-package Two;
+package _02_Two;
 
 import java.util.regex.Pattern;
 
@@ -25,7 +25,7 @@ public class _20_Me {
     }
 
     /*
-     该程序看起来会获得它的类名（“Two._20_Me”），然后用“/”替换掉所有出现的字符串“.”，并在末尾追加字符串“.class”。
+     该程序看起来会获得它的类名（“_02_Two._20_Me”），然后用“/”替换掉所有出现的字符串“.”，并在末尾追加字符串“.class”。
      你可能会认为该程序将打印com/javapuzzlers/Me.class，该程序正式从这个类文件中被加载的。如果你运行这个程序，就会发现它
      实际上打印的是///////////////////.class。到底怎么回事？难道我们是斜杠的受害者吗？
 
@@ -42,7 +42,7 @@ public class _20_Me {
      为了解决这类问题，5.0版本提供了新的静态方法java.util.regex.Pattern.quote。它接受一个字符串作为参数，并可以添加必
      需的转义字符，它将返回一个正则表达式字符串，该字符串将精确匹配输入的字符串。下面是使用该方法之后的程序：
 
-        System.out.println(Me.class.getName().replaceAll(Pattern.quote("."),"/") + ".class");
+        System.out.println(_20_Me.class.getName().replaceAll(Pattern.quote("."),"/") + ".class");
 
      该程序的另一个问题是：其正确的行为是与平台相关的。并不是所有的文件系统都使用斜杠符号来分隔层次结构的文件名组成部分的。
      要想获取一个你正在运行的平台上的有效文件名，你应该使用正确的平台相关的分隔符号来代替斜杠符号。这正是下一个谜题所要做

@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package One;
  * Date: 13-6-18
  * Time: 下午5:19
  */
-public class _4_Elementary {
+public class _04_Elementary {
 
     public static void main(String[] args){
 

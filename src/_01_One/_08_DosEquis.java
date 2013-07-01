@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package One;
  * Date: 13-6-21
  * Time: 上午11:27
  */
-public class _8_DosEquis {
+public class _08_DosEquis {
 
     public static void main(String[] args){
         char x = 'X';

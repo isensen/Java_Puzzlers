@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package One;
  * Date: 13-6-19
  * Time: 上午11:13
  */
-public class _6_Multicast {
+public class _06_Multicast {
     public static void main(String[] args){
 
         //连续使用了三个转型。那么它到底会打印出什么呢

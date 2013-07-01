@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package One;
  * Date: 13-6-21
  * Time: 上午11:03
  */
-public class _7_CleverSwap {
+public class _07_CleverSwap {
 
     public static void main(String[] args){
 
@@ -18,6 +18,7 @@ public class _7_CleverSwap {
         int y = 2001; // (0x7d1)
         x^= y^= x^= y;
         System.out.println("x= " + x + "; y= " + y);
+
 
 
         //重置一下,解析过程
@@ -32,6 +33,12 @@ public class _7_CleverSwap {
         x = tmp1 ^ y ; // 第一个赋值：存储0到x中
 
 
+        x = 1984;
+        y = 2001;
+        x = x ^ y;
+        y = y ^ x;
+        x = y ^ x;
+        System.out.println("x= " + x + "; y= " + y);
 
         /*
           交换两个变量的最显而易见的方式是使用一个临时变量：

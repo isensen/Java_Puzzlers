@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package One;
  * Date: 13-6-18
  * Time: 下午4:59
  */
-public class _3_LongDivision {
+public class _03_LongDivision {
 
       public static void main(String[] args){
           //每天微秒数

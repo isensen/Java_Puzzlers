@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package One;
  * Date: 13-6-18
  * Time: 下午5:24
  */
-public class _5_JoyOfHex {
+public class _05_JoyOfHex {
 
     public static void main(String[] args){
 

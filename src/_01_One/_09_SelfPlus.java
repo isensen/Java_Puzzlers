@@ -1,4 +1,4 @@
-package One;
+package _01_One;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package One;
  * Date: 13-6-21
  * Time: 下午4:58
  */
-public class _9_SelfPlus {
+public class _09_SelfPlus {
 
       public static void main(String[] args){
           short x = 0;
