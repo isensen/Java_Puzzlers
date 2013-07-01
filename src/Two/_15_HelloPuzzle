@@ -5,6 +5,9 @@ package Two;
  * User: i33
  * Date: 13-6-28
  * Time: 下午3:45
+ * IntelliJ IDEA 12.1 下 编译时排除文件和验证时排除文件,怎么设置都不行,此文件讲的就是编译时有错
+ * 本代码给出的也是编译有错的,但在INTELLIJ下,因为本文件编译有错,还在PROJECT里无法排除掉,导致别的
+ * 文件MAIN无法运行,所以改成了TEXT文件. 排除怎么不行啊?
  */
 public class _15_HelloPuzzle {
 
