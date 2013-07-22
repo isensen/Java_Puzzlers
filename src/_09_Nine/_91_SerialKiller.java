@@ -67,7 +67,6 @@ public class _91_SerialKiller {
                 }
             }
 
-
     程序中除了使用了序列化之外，看起来是很简单的。子类Sub覆写了hashCode方法和equals方法。这些覆写过的方法符合
     了相关的一般规约[EJ Item 7,8]。Sub的构造器建立了这个类的不变规则，而在它这么做的时候没有调用到可覆写的方
     法（谜题51）。Super类有一个单独的Set<Super>类型的域，Sub类添加了另外一个int类型的域。Super和Sub都不需要
